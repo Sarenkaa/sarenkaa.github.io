@@ -4,28 +4,66 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <title>Good morning!</title>
+        <meta name="author" content="Sarenkaa" />
+        <meta
+          name="description"
+          content="Website for learning and fun, maybe someday it will
+          become something better ;)" />
+
+          <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
         <link href="styles/style.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
         rel="stylesheet" />
+
+        <script src="scripts/main.js" defer></script>
     </head>
     <body>
         <!-- This is a comment, I can write everything here -->
-        <h1>Hello guys!</h1>
-        <h3>Let's see some of my favourite images from Eldarya</h3>
-        <p class="fancy-class" info="editor-note">I <strong>really</strong> like this image!</p>
-        <img src="images/img1.png" alt="Image from Eldarya New World: girl and boy looking each other 
-        deeply in the eyes and dancing" height="400" weidth="600"/>
-        <!-- ul - unordered lists, ol - ordered lists -->
-        <p>Best characters (from 1 to 4): </p>
-        <ol>
-            <li>Leiftan</li>
-            <li>Nevra</li>
-            <li>Lance</li>
-            <li>Mathieu</li>
-        </ol>
-        <p> All images come from <a href="https://eldarya.fandom.com/pl/wiki/Eldarya_Wiki">
-            Eldarya Wiki</a>.</p>
-        <button>Change user</button>
-        <script src="scripts/main.js"></script>
+        
+        <header>
+            <h1>Amentia</h1>
+            <h2>Welcome!</h2>
+            <nav>
+                <ol>
+                    <li><a href="#">Strona Główna</a></li>
+                    <li><a href="#">Moja Postać</a>
+                      <ul>
+                        <li><a href="#">Wygląd</a></li>
+                        <li><a href="#">Charakter</a></li>
+                        <li><a href="#">Momenty</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Akty</a></li>
+                    <li><a href="#">Kontakty</a>
+                      <ul>
+                        <li><a href="#">link - 1</a></li>
+                        <li><a href="#">link - 2</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Mój profil</a>
+                      <ul>
+                        <li><a href="#">link - 1</a></li>
+                        <li><a href="#">link - 2</a></li>
+                        <li><a href="#">link - 3</a></li>
+                      </ul>
+                    </li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <h3>From teens to adults</h3>
+            <p class="fancy-class" info="editor-note">Look at this sweet couple.</p>
+            <img id="couple-images" src="images/blond-teen.jpg" alt="Zdjęcie pary 
+            wygenerowane przez portal AITubo."/>
+        </main>
+        <aside>
+            <button>Change user</button>
+        </aside>
+        <footer>
+            <p> All images come from AI Generator:<a href="https://app.aitubo.ai"></a>.</p>
+        </footer>
+        
+
     </body>
 </html>
